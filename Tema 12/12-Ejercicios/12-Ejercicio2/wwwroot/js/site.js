@@ -10,7 +10,7 @@ function inicializarEventos() {
     var opt_2 = new Array("-", "Twingo", "Space", "Captur", "Scenic");
     var opt_3 = new Array("-", "Ibiza", "Leon");
     var formulario = document.getElementById("formulario1")
-    formulario.addEventListener("onchange", cambio, false)
+    formulario.addEventListener("onChange", cambio, false)
 
 }
 
