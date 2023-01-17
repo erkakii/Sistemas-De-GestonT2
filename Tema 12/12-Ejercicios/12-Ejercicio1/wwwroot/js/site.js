@@ -13,7 +13,12 @@ class Persona {
     }
 }
 
-
+/**
+ * 
+ * 
+ * 
+ * 
+ * */
 function inicializarEventos() {
     var miBoton = document.getElementById("btnSaludar");
     miBoton.addEventListener("click", saludar, false)
@@ -21,6 +26,12 @@ function inicializarEventos() {
 
 }
 
+/**
+ * 
+ * 
+ * 
+ * 
+ * */
 function saludar() {
     var nombre = document.getElementById("Nombre").value
     var apellido = document.getElementById("Apellido").value

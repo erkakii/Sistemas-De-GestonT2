@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M7swHrOhyjuqL5E7I9/oEfmzpiBN7u9P1PYANeV6Ro4=",
+  "Hash": "SGsexGokUgGWEy1LTjyoyHDBWK2Y7fx0Z81DnzDZluc=",
   "Source": "12-Ejercicio2",
   "BasePath": "_content/12-Ejercicio2",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\Tema 12\\12-Ejercicios\\12-Ejercicio2\\wwwroot\\html\\Ejercicio3.html",
+      "SourceId": "12-Ejercicio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\Tema 12\\12-Ejercicios\\12-Ejercicio2\\wwwroot\\",
+      "BasePath": "_content/12-Ejercicio2",
+      "RelativePath": "html/Ejercicio3.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Ejercicio3.html"
+    },
+    {
       "Identity": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\Tema 12\\12-Ejercicios\\12-Ejercicio2\\wwwroot\\html\\index.html",
       "SourceId": "12-Ejercicio2",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\listas.html"
+    },
+    {
+      "Identity": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\Tema 12\\12-Ejercicios\\12-Ejercicio2\\wwwroot\\js\\ejer3.js",
+      "SourceId": "12-Ejercicio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\Tema 12\\12-Ejercicios\\12-Ejercicio2\\wwwroot\\",
+      "BasePath": "_content/12-Ejercicio2",
+      "RelativePath": "js/ejer3.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ejer3.js"
     },
     {
       "Identity": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\Tema 12\\12-Ejercicios\\12-Ejercicio2\\wwwroot\\js\\site.js",
