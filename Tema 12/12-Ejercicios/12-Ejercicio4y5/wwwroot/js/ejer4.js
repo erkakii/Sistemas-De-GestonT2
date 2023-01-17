@@ -49,10 +49,10 @@ function anadir() {
 }
 
 function borrar(){
-    var tabla = document.getElementById("tabla")
+    /*var tabla = document.getElementById("tabla")
     numRows = tabla.rows.length
-    tabla.deleteRow(numRows - 1)
-    /*document.getElementById("tabla").deleteRow(document.getElementsByTagName("tr").length - 1);*/ 
+    tabla.deleteRow(numRows - 1)*/
+    document.getElementById("tabla").deleteRow(document.getElementsByTagName("tr").length - 1);
 }
 
 
