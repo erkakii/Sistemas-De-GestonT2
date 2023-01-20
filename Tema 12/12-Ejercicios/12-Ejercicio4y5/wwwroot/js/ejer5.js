@@ -1,8 +1,11 @@
 ﻿window.onload = inicializarEventos
 
+
+
 function inicializarEventos(){
     inicio()
-    setInterval("inicializarEventos()", 1000)
+setInterval("inicio()", 1000)
+    
 
     
 
