@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { TablaPersonasComponent } from './components/tabla-personas/tabla-personas.component';
 import { FormularioPersonasComponent } from './components/formulario-personas/formulario-personas.component';
 import { ListadoPersonasComponent } from './components/listado-personas/listado-personas.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormularioReactivoComponent } from './components/formulario-reactivo/formulario-reactivo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TablaPersonasComponent,
     FormularioPersonasComponent,
-    ListadoPersonasComponent
+    ListadoPersonasComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

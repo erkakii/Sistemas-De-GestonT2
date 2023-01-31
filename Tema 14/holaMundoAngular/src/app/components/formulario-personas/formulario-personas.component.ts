@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./formulario-personas.component.css']
 })
 export class FormularioPersonasComponent {
-
+  
 }

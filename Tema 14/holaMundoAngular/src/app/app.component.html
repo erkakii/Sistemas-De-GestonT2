@@ -1,14 +1,14 @@
 <h1>HolaMundoAngular</h1>
-<img src="https://i.pinimg.com/236x/ce/59/83/ce59837dd46efcaa5549a75bf2b1e443.jpg"/>
-<br>
-<br>
 <app-tabla-personas></app-tabla-personas>
 <br>
-<br>
-<app-formulario-personas></app-formulario-personas>
-<br>
-<br>
-<app-listado-personas></app-listado-personas>
+<button [routerLink]="'formulario'">Abrir formulario</button>
+<nav>
+    <a routerLink="/listado">Abrir listado </a>
+</nav>
+
+<button (click)="abrirFormulario()">Abrir eventoclick</button>
+
+
 
 
 <!--Esto no se quita sino palo por mamahuevo-->
