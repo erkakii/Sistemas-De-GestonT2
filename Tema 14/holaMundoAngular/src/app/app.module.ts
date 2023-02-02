@@ -8,6 +8,7 @@ import { FormularioPersonasComponent } from './components/formulario-personas/fo
 import { ListadoPersonasComponent } from './components/listado-personas/listado-personas.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormularioReactivoComponent } from './components/formulario-reactivo/formulario-reactivo.component';
+import {FormGroup, FormControl} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,11 +16,13 @@ import { FormularioReactivoComponent } from './components/formulario-reactivo/fo
     TablaPersonasComponent,
     FormularioPersonasComponent,
     ListadoPersonasComponent,
+    FormularioReactivoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
