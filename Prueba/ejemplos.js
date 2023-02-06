@@ -1,27 +1,50 @@
+window.onload = inicializarEventos;
+
+function inicializarEventos(){
+
+    
+    var btnBorrar = document.getElementById("btnBorrar")
+
+    btnBorrar.addEventListener("click", insertarPersona, false)
+
+}
+
+
+
+
+
 class Persona {
-    constructor(nombre, apellido) {
+    constructor(id, nombre, apellido, telefono, direccion, foto, fechaNacimiento, idDepartamento) {
+        this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.foto = foto;
+        this.fechaNacimiento = fechaNacimiento;
+        this.idDepartamento = idDepartamento;
     }
 }
 
 
-function eliminarPersonaPorId(id){
+function eliminarPersonaPorId(){
+
+    var idPersona = document.getElementById("idPersona")
+    var div = document.getElementById("divResultado")
     var miLlamada = new XMLHttpRequest();
-    miLlamada.open("DELETE", "Aqui va la direccion donde se encuentre la api y el controllador que necesitemos/" + id);
+    miLlamada.open("DELETE", "https://elcruddefresco.azurewebsites.net/api/persona/" + idPersona.textContent);
 
     //Definicion estados
 
     miLlamada.onreadystatechange = function () {
 
         if (miLlamada.readyState < 4) {
-
-            //Aqui ponemos que realizar mientras carga la pagina
-
+            
+            div.innerHTML = "Cargando lambe bicho"            
         }
 
         else if (miLlamada.readyState == 4 && miLlamada.status == 200) {
-            //Poner un parrafo donde diga que la persona ha sido borrada con exito
+            div.innerHTML = "Persona eliminada con exito :D"
 
         }
 
@@ -79,29 +102,29 @@ function rellenarTablaPersonas(arrayPersonas) {
 
 function insertarPersona(){
     var miLlamada = new XMLHttpRequest();
-    var persona = new Persona("alvaro", "castro");
-    miLlamada.open("POST", "https://apipersonaspaco.azurewebsites.net/api/personascondepartamento/");
+    var fecha = Date.now();
+    var persona = new Persona(60, "alvaro", "castro", "123456666", "calle mi nabo nº1 3 izq", "xd", "2020-01-01T00:00:00Z", 1);
+    miLlamada.open("POST", "https://elcruddefresco.azurewebsites.net/api/persona/");
 
-
+    var json = JSON.stringify(persona);
     //Definicion estados
 
     miLlamada.onreadystatechange = function () {
 
         if (miLlamada.readyState < 4) {
 
-            cargando.src = "../img/ZWdx.gif";
+            
 
         }
 
         else if (miLlamada.readyState == 4 && miLlamada.status == 200) {
-            //Aqui pondriamos errores y esas cosas
-
+            alert("OK")
         }
 
     };
 
 
-    miLlamada.send(persona);
+    miLlamada.send(json);
 }
 
 function actualizarPersona(id){
