@@ -5,7 +5,7 @@ function inicializarEventos(){
     
     var btnBorrar = document.getElementById("btnBorrar")
 
-    btnBorrar.addEventListener("click", insertarPersona, false)
+    btnBorrar.addEventListener("click", actualizarPersona2, false)
 
 }
 
@@ -14,10 +14,10 @@ function inicializarEventos(){
 
 
 class Persona {
-    constructor(id, nombre, apellido, telefono, direccion, foto, fechaNacimiento, idDepartamento) {
+    constructor(id, nombre, apellidos, telefono, direccion, foto, fechaNacimiento, idDepartamento) {
         this.id = id;
         this.nombre = nombre;
-        this.apellido = apellido;
+        this.apellidos = apellidos;
         this.telefono = telefono;
         this.direccion = direccion;
         this.foto = foto;
@@ -29,10 +29,10 @@ class Persona {
 
 function eliminarPersonaPorId(){
 
-    var idPersona = document.getElementById("idPersona")
-    var div = document.getElementById("divResultado")
+    var idPersona = document.getElementById("idPersona").value
+    var div = document.getElementById("divResultado") //.style.display = "none" "hidden"
     var miLlamada = new XMLHttpRequest();
-    miLlamada.open("DELETE", "https://elcruddefresco.azurewebsites.net/api/persona/" + idPersona.textContent);
+    miLlamada.open("DELETE", "http://localhost:5257/" + idPersona);
 
     //Definicion estados
 
@@ -103,10 +103,31 @@ function rellenarTablaPersonas(arrayPersonas) {
 function insertarPersona(){
     var miLlamada = new XMLHttpRequest();
     var fecha = Date.now();
-    var persona = new Persona(60, "alvaro", "castro", "123456666", "calle mi nabo nº1 3 izq", "xd", "2020-01-01T00:00:00Z", 1);
-    miLlamada.open("POST", "https://elcruddefresco.azurewebsites.net/api/persona/");
+    var persona;
+    const id = 60;
+    const nombre = "alvaro";
+    const apellidos = "castro"
+    const telefono = "123456789"
+    const direccion= "maceta"
+    const foto = "xd"
+    const fechaNacimiento = "2020-02-02T00:00:00"
+    const idDepartamento = 1
 
-    var json = JSON.stringify(persona);
+    miLlamada.open("POST", "https://apipersonaspaco.azurewebsites.net/api/personas/");
+    miLlamada.setRequestHeader('Content-type', 'application/json; charset=utf-8')
+
+    try{
+        var json = JSON.stringify({
+            id,
+            nombre,
+            apellidos,
+            telefono,
+            direccion,
+            foto,
+            fechaNacimiento,
+            idDepartamento
+
+        });
     //Definicion estados
 
     miLlamada.onreadystatechange = function () {
@@ -123,16 +144,39 @@ function insertarPersona(){
 
     };
 
-
+    }catch(e){
+        alert(e)
+    }
     miLlamada.send(json);
 }
 
-function actualizarPersona(id){
+function actualizarPersona(){
+    var id = document.getElementById("idPersona").value
     var miLlamada = new XMLHttpRequest();
-    var persona = new Persona("alvaro", "castro");
-    //id de la persona que vamos a actualizar
-    miLlamada.open("PUT", "https://apipersonaspaco.azurewebsites.net/api/personascondepartamento/" + id);
+    const nombre = "alvaro";
+    const apellidos = "castro"
+    const telefono = "123456789"
+    const direccion= "calle macetudoooooooo"
+    const foto = "xd"
+    const fechaNacimiento = "2020-02-02T00:00:00"
+    const idDepartamento = 1
 
+    var persona = new Persona(nombre, apellidos, telefono, direccion, foto, fechaNacimiento,idDepartamento);
+    //id de la persona que vamos a actualizar
+    miLlamada.open("PUT", "https://apipersonaspaco.azurewebsites.net/api/personas/" + id);
+    miLlamada.setRequestHeader('Content-type', 'application/json; charset=utf-8')
+
+    var json = JSON.stringify({
+        nombre,
+        apellidos,
+        telefono,
+        direccion,
+        foto,
+        fechaNacimiento,
+        idDepartamento
+
+    });
+    
 
     //Definicion estados
 
@@ -140,19 +184,19 @@ function actualizarPersona(id){
 
         if (miLlamada.readyState < 4) {
 
-            cargando.src = "../img/ZWdx.gif";
+            //cositas
 
         }
 
         else if (miLlamada.readyState == 4 && miLlamada.status == 200) {
-            //Aqui pondriamos errores y esas cosas
+            alert("persona actualizada con exito")
 
         }
 
     };
 
 
-    miLlamada.send(persona);
+    miLlamada.send(json);
 }
 
 function recorrerTabla(){
@@ -197,3 +241,113 @@ function borrarFila(){
     tabla.deleteRow(numRows - 1)*/
     document.getElementById("tabla").deleteRow(document.getElementsByTagName("tr").length - 1);
 }
+
+function insertarPersona2() {
+    var miLlamada = new XMLHttpRequest();
+    var persona = new Persona(100, "David", "Carnajal", "354354", "Micasa", "foto", "1919-06-23T00:00:00", 1);
+    var json=JSON.stringify(persona)
+    miLlamada.open("POST", "https://apipersonaspaco.azurewebsites.net/api/personas/");
+    miLlamada.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+
+
+    //Definicion estados
+
+    miLlamada.onreadystatechange = function () {
+
+        if (miLlamada.readyState < 4) {
+
+            
+
+        }
+
+        else if (miLlamada.readyState == 4 && miLlamada.status == 200) {
+            alert("ok")
+
+        }
+
+    }
+    miLlamada.send(json);
+
+}
+
+function actualizarPersona2() {
+    var id = document.getElementById("idPersona").value
+    var miLlamada = new XMLHttpRequest();
+    
+
+    var persona = new Persona(id, "David", "Carnajal", "354354", "Micasa", "foto", "1919-06-23T00:00:00", 1);
+    var json=JSON.stringify(persona)
+    miLlamada.open("PUT", "https://apipersonaspaco.azurewebsites.net/api/personas/" + id);
+    miLlamada.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+
+
+    //Definicion estados
+
+    miLlamada.onreadystatechange = function () {
+
+        if (miLlamada.readyState < 4) {
+
+            
+
+        }
+
+        else if (miLlamada.readyState == 4 && miLlamada.status == 200) {
+            
+            alert("ok")
+        }
+
+    }
+    miLlamada.send(json);
+
+}
+
+
+
+
+
+
+
+//function insertar() {
+//        const id = document.getElementById("idPersona").value;
+//    const nombre = document.getElementById("nombre").value;
+//    const apellidos = document.getElementById("apellido").value;
+//    const idDepartamento = document.getElementById("idDepartamento").value;
+//    const telefono = "3643";
+//    const direccion = "aa";
+//    const foto = "a";
+//    const fechaNacimiento = "1932-01-04T00:00:00";
+//    const mensajeCarga = document.getElementById("mensajeCarga");
+//    mensajeCarga.innerHTML = "Se está realizando el agregado";
+//    var miLlamada = new XMLHttpRequest();
+
+//    miLlamada.open("POST", "https://crudpersonasaspestrada.azurewebsites.net/API/Persona/");
+
+//    miLlamada.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+
+//    var json = JSON.stringify({
+//                id,
+//                nombre,
+//                apellidos,
+//                idDepartamento,
+//                telefono,
+//                direccion,
+//                foto,
+//                fechaNacimiento,
+//            });
+
+//    // Definicion estados
+
+//    miLlamada.onreadystatechange = function () {
+//        if (miLlamada.readyState < 4) {
+//            //aquí se puede poner una imagen de un reloj o un texto “Cargando”
+
+//        }
+//        else
+//            if (miLlamada.readyState == 4 && miLlamada.status == 200) {
+
+//                alert("Persona insertada con exito");
+
+//            }
+//    };
+
+//    miLlamada.send(json);

@@ -1,0 +1,55 @@
+Entidades
+
+	clsPersona
+		int id
+		string nombre	
+		string apellidos
+		string telefono
+		string direccion
+		string foto
+		Date fechaNacimiento
+		int idDepartamento
+
+	clsDepartamento
+		int idDepartamento
+		string nombre
+
+	clsPersonaConDepartamento
+
+		clsPersona
+		clsDepartamento
+
+
+DAL
+
+	clsMyConnection
+
+	clsManejadoraDAL
+
+		//Conseguimos un listado de personas con el nombre del departamento correspondiente
+		public List<PersonaConDepartamento> listadoPersonaConDepartamaentoDAL(){}
+		
+
+		//Actualiza una persona que ya este en la base de datos
+		public actualizarPersonaDAL(clsPersona)
+
+		
+
+BL
+		
+
+	clsManejadoraBL
+
+		listadoPersonasConDepartamentoBL(){}
+		
+		actualizarPersonaBL(clsPersona)
+
+
+JavaScript
+
+
+
+	inicializarEventos()//funcion que se ejecutara al cargar la pagina
+	conseguirDatosPersonas()//Consigue la lista con las personas y sus departamentos
+	rellenarTabla()//Rellena la tabla con los datos obtenidos de la base de datos
+	

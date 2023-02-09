@@ -1,0 +1,15 @@
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\bin\Debug\net6.0\DAL.dll
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\bin\Debug\net6.0\DAL.pdb
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\bin\Debug\net6.0\Entidades.dll
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\bin\Debug\net6.0\Entidades.pdb
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.dll
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\DAL.pdb
+C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\DAL\obj\Debug\net6.0\ref\DAL.dll
