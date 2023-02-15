@@ -306,7 +306,6 @@ function actualizarPersona2() {
 
 
 
-
 //function insertar() {
 //        const id = document.getElementById("idPersona").value;
 //    const nombre = document.getElementById("nombre").value;

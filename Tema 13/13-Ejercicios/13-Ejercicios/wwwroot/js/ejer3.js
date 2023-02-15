@@ -46,3 +46,15 @@ function rellenarTablaPersonas(arrayPersonas) {
     });
 
 }
+
+function ordenarArrayPersonasPorNombre(arrayPersonas) {
+    arrayPersonas.sort(function (a, b) {
+        if (a.nombre > b.nombre) {
+            return 1;
+        }
+        if (a.nombre < b.nombre) {
+            return -1;
+        }
+        return 0;
+    })
+}

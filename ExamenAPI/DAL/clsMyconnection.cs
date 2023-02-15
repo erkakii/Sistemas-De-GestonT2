@@ -33,10 +33,10 @@ namespace _07_CRUD_Personas_DAL.Conexion
 
             //El usuario es prueba2 porque ya tenía un usuario prueba y no me dejaba borrarlo asi qeu dijiste que le pusieramos este nombre
 
-            this.server = $"107-07\\SQLEXPRESS";
+            this.server = $"alvarodb.database.windows.net";
             this.dataBase = "alvarodb";
-            this.user = "prueba2";
-            this.pass = "123";
+            this.user = "fernando";
+            this.pass = "Mandaloriano69";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones

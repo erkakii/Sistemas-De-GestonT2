@@ -14,11 +14,6 @@ Entidades
 		int idDepartamento
 		string nombre
 
-	clsPersonaConDepartamento
-
-		clsPersona
-		clsDepartamento
-
 
 DAL
 
@@ -26,8 +21,11 @@ DAL
 
 	clsManejadoraDAL
 
-		//Conseguimos un listado de personas con el nombre del departamento correspondiente
-		public List<PersonaConDepartamento> listadoPersonaConDepartamaentoDAL(){}
+		//Conseguimos un listado de personas 
+		public List<clsPersona> listadoPersonaDAL(){}
+
+		//Conseguimos un listado de departamentos 
+		public List<clsDepartamentos> listadoDepartamenotsDAL(){}
 		
 
 		//Actualiza una persona que ya este en la base de datos
@@ -40,8 +38,8 @@ BL
 
 	clsManejadoraBL
 
-		listadoPersonasConDepartamentoBL(){}
-		
+		listadoPersonasBL(){}
+		listadoDepartamentosBL(){}
 		actualizarPersonaBL(clsPersona)
 
 
@@ -50,6 +48,10 @@ JavaScript
 
 
 	inicializarEventos()//funcion que se ejecutara al cargar la pagina
-	conseguirDatosPersonas()//Consigue la lista con las personas y sus departamentos
+	cargarPersonas()//Consigue la lista con las personas y la mete en un array
+	cargarDepartamentos()//Consigue la lista de departamentos y la mete en un array
 	rellenarTabla()//Rellena la tabla con los datos obtenidos de la base de datos
+	comprobarCambios()//Comprueba las personas que se han cambiado de departamento
+	actualizarPersona()//Actualiza las personas mediante el metodo put de la api
+
 	

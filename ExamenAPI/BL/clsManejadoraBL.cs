@@ -16,9 +16,31 @@ namespace BL
         /// PostCondición: Ninguna
         /// </summary>
         /// <returns>List<clsPerosnasConDepartamentos></returns>
-        public static List<clsPersonaConDepartamento> listadoPersonasConDepartamentoBL()
+        public static List<clsPersona> listadoPersonasBL()
         {
-           return clsManejadoraDAL.listadoPersonasConDepartamentoDAL();
+            return clsManejadoraDAL.conseguirListadoPersonasDAL();
+        }
+
+        /// <summary>
+        /// Devuelve un listado de departamentos de la base de datos 
+        /// Precondición: Ninguna
+        /// PostCondición: Ninguna
+        /// </summary>
+        /// <returns>List<clsDepartamentos></returns>
+        public static List<clsDepartamentos> departamentosBL()
+        {
+            return clsManejadoraDAL.conseguirListadoDepartamentosDAL();
+        }
+
+        /// <summary>
+        /// Actualiza una persona de la base de datos
+        /// Precondición: Ninguna
+        /// PostCondición: Ninguna
+        /// </summary>
+        /// <param name="persona">clsPersona</param>
+        public static void editarPersonaBL(clsPersona persona)
+        {
+            clsManejadoraDAL.EditarPersonaDAL(persona);
         }
     }
 }

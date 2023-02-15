@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj": {}
+    "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj": {
+    "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\acastro\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\obj\\",
+        "projectPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\elmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\acastro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj"
+              "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj"
               },
-              "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj"
+              "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -67,24 +67,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj": {
+    "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\acastro\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\obj\\",
+        "projectPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\elmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\acastro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -100,8 +100,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj"
+              "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -137,24 +137,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj": {
+    "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\acastro\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\obj\\",
+        "projectPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\elmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\acastro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -197,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
