@@ -46,3 +46,34 @@ function rellenarTablaPersonas(arrayPersonas) {
     });
 
 }
+
+function ordenarArrayPersonas(arrayPersonas) {
+
+    arrayPersonas.sort(function (a, b) {
+        if (a.nombre > b.nombre) {
+            return 1;
+        }
+        if (a.nombre < b.nombre) {
+            return -1;
+        }
+        return 0;
+    });
+
+}
+
+function filtrarArrayPersonas(arrayPersonas) {
+
+    var arrayFiltrado = arrayPersonas.filter(persona => persona.nombreDpto == "Informatica");
+
+    return arrayFiltrado;
+
+
+}
+
+function buscarPersona(arrayPersonas, nombre) {
+
+    var personaEncontrada = arrayPersonas.find(persona => persona.nombre == nombre);
+
+    return personaEncontrada;
+
+}
