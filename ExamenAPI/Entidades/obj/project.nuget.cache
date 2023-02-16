@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "x34KytnRalqdOWFZdIQSvwftHSu2VeXeI52rn76wEoQU/tZVrVk/SjewaQmRLwwHDad5K5k7Y4Wl+fbR53ziZg==",
+=======
+  "dgSpecHash": "Qy0fOlqcdki9eXqST8/HFlvzZFS130tTwhD1ZL3oOUAL5Lh+t7yuZt4ImPRqg+EKtNgjs4acxLYFIOVPI7vxBQ==",
+>>>>>>> 334b74230329721b9525f262450d52d9fb228bec
   "success": true,
-  "projectFilePath": "C:\\GIT\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Git\\Segundo trimestre\\Sistemas-De-GestonT2\\ExamenAPI\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

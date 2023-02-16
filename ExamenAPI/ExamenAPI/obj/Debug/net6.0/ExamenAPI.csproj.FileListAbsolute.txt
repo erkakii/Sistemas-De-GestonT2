@@ -16,9 +16,7 @@ C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\ExamenAPI.RazorAssemblyInfo.cs
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\staticwebassets.build.json
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\staticwebassets.development.json
-C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\scopedcss\bundle\ExamenAPI.styles.css
-C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\scopedcss\projectbundle\ExamenAPI.bundle.scp.css
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\ExamenAPI.dll
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\refint\ExamenAPI.dll
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\ExamenAPI.pdb
@@ -65,3 +63,8 @@ C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\bin\Debug\net6
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\bin\Debug\net6.0\Entidades.pdb
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\bin\Debug\net6.0\DAL.pdb
 C:\GIT\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\ExamenAPI.csproj.CopyComplete
+C:\Git\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\staticwebassets\msbuild.ExamenAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Git\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.ExamenAPI.props
+C:\Git\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ExamenAPI.props
+C:\Git\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ExamenAPI.props
+C:\Git\Segundo trimestre\Sistemas-De-GestonT2\ExamenAPI\ExamenAPI\obj\Debug\net6.0\staticwebassets.pack.json

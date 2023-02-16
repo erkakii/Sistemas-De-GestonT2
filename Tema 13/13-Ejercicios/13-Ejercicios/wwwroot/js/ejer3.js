@@ -47,7 +47,11 @@ function rellenarTablaPersonas(arrayPersonas) {
 
 }
 
+
 function ordenarArrayPersonas(arrayPersonas) {
+
+
+function ordenarArrayPersonasPorNombre(arrayPersonas) {
 
     arrayPersonas.sort(function (a, b) {
         if (a.nombre > b.nombre) {
@@ -57,6 +61,7 @@ function ordenarArrayPersonas(arrayPersonas) {
             return -1;
         }
         return 0;
+
     });
 
 }
@@ -75,5 +80,8 @@ function buscarPersona(arrayPersonas, nombre) {
     var personaEncontrada = arrayPersonas.find(persona => persona.nombre == nombre);
 
     return personaEncontrada;
+
+
+    }
 
 }
